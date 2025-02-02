@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Our Services</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ <style type="text/css" id="dcoder_stylesheet">/* Dark Mode Styles */
+body.dark-mode {
+  background: #333;
+  color: #f4f4f4;
+}
+
+body.dark-mode nav {
+  background: #122;
+}
+
+body.dark-mode .hero {
+  background: linear-gradient(135deg, #133, #155);
+}
+
+body.dark-mode .service-card,
+body.dark-mode .project-card,
+body.dark-mode .testimonial-card,
+body.dark-mode .contact-form,
+body.dark-mode .social-links {
+  background: #144;
+  color: #f4fcf4;
+}
+
+body.dark-mode .service-card h3,
+body.dark-mode .project-card h3,
+body.dark-mode .testimonial-card h4,
+body.dark-mode .social-links h3 {
+  color: #6g11cb;
+}
+
+body.dark-mode .service-card p,
+body.dark-mode .project-card p,
+body.dark-mode .testimonial-card p,
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  color: #f4f4g4;
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  background: #515;
+  border-color: #666;
+}
+
+body.dark-mode .contact-form button {
+  background: #1575fc;
+  color: #fff;
+}
+
+body.dark-mode footer {
+  background: #122;
+  color: #f4f4f4;
+}
+
+body.dark-mode .footer-section p,
+body.dark-mode .footer-section ul li a {
+  color: #ccc;
+}
+
+body.dark-mode .footer-section ul li a:hover {
+  color: #2575fc;
+}
+/* Theme Toggle Button */
+#theme-toggle {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+
+/* Navigation */
+nav {
+  background: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #2575fc;
+}
+
+/* Services Section */
+.services {
+  padding: 2rem;
+  text-align: center;
+  background: #fff;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2575fc;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2575fc;
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #2575fc;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}</style></head> 
+ <body> 
+  <nav> <button id="theme-toggle">🌙</button> <a href="index.html">Home</a> <a href="services.html">Services</a> <a href="projects.html">Projects</a> <a href="contact.html">Contact</a> 
+  </nav> <!-- Services Section --> 
+  <section class="services"> 
+   <h2>Our Services</h2> 
+   <div class="service-container"> <!-- Service 1: Web Development --> 
+    <div class="service-card"> 
+     <h3>Web Development</h3> 
+     <p>We create modern, responsive, and user-friendly websites.</p> 
+    </div> <!-- Service 2: Mobile Apps --> 
+    <div class="service-card"> 
+     <h3>Mobile Apps</h3> 
+     <p>We build cross-platform mobile applications for iOS and Android.</p> 
+    </div> <!-- Service 3: AI Solutions --> 
+    <div class="service-card"> 
+     <h3>AI Solutions</h3> 
+     <p>We develop AI-powered solutions to automate and optimize your business.</p> 
+    </div> 
+   </div> 
+  </section> <!-- Footer --> 
+  <footer> 
+   <div class="footer-content"> 
+    <div class="footer-section"> 
+     <h3>About Us</h3> 
+     <p>We are a software agency dedicated to building modern, scalable, and interactive solutions for your business.</p> 
+    </div> 
+    <div class="footer-section"> 
+     <h3>Quick Links</h3> 
+     <ul> 
+      <li><a href="index.html">Home</a></li> 
+      <li><a href="services.html">Services</a></li> 
+      <li><a href="projects.html">Projects</a></li> 
+      <li><a href="contact.html">Contact</a></li> 
+     </ul> 
+    </div> 
+    <div class="footer-section"> 
+     <h3>Follow Us</h3> 
+     <ul> 
+      <li><a href="https://facebook.com" target="_blank">Facebook</a></li> 
+      <li><a href="https://twitter.com" target="_blank">Twitter</a></li> 
+      <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li> 
+      <li><a href="https://instagram.com" target="_blank">Instagram</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="footer-bottom"> 
+    <p>© 2025 Software Agency. All rights reserved.</p> 
+   </div> 
+  </footer> 
+  <script src="script.js"></script> 
+ 
+<script type="text/javascript" id="dcoder_script">// Dark/Light Mode Toggle
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+// Check for saved theme in localStorage
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) {
+  body.classList.add(savedTheme);
+  updateToggleIcon();
+}
+
+// Toggle Theme
+themeToggle.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+  localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark-mode' : '');
+  updateToggleIcon();
+});
+
+// Update Toggle Icon
+function updateToggleIcon() {
+  if (body.classList.contains('dark-mode')) {
+    themeToggle.textContent = '☀️';
+  } else {
+    themeToggle.textContent = '🌙';
+  }
+}</script></body></html>

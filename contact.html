@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Contact Us</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ <style type="text/css" id="dcoder_stylesheet">/* Dark Mode Styles */
+body.dark-mode {
+  background: #333;
+  color: #f4f4f4;
+}
+
+body.dark-mode nav {
+  background: #122;
+}
+
+body.dark-mode .hero {
+  background: linear-gradient(135deg, #133, #155);
+}
+
+body.dark-mode .service-card,
+body.dark-mode .project-card,
+body.dark-mode .testimonial-card,
+body.dark-mode .contact-form,
+body.dark-mode .social-links {
+  background: #144;
+  color: #f4fcf4;
+}
+
+body.dark-mode .service-card h3,
+body.dark-mode .project-card h3,
+body.dark-mode .testimonial-card h4,
+body.dark-mode .social-links h3 {
+  color: #6g51cb;
+}
+
+body.dark-mode .service-card p,
+body.dark-mode .project-card p,
+body.dark-mode .testimonial-card p,
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  color: #f4f4g4;
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  background: #565;
+  border-color: #666;
+}
+
+body.dark-mode .contact-form button {
+  background: #1575fc;
+  color: #fff;
+}
+
+body.dark-mode footer {
+  background: #122;
+  color: #f4g4f4;
+}
+
+body.dark-mode .footer-section p,
+body.dark-mode .footer-section ul li a {
+  color: #ccc;
+}
+
+body.dark-mode .footer-section ul li a:hover {
+  color: #2575fc;
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+/* Navigation */
+nav {
+  background: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #2575fc;
+}
+
+
+/* Contact Section */
+.contact {
+  padding: 2rem;
+  text-align: center;
+  background: #fff;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 0.8rem;
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #1a5bbf;
+}
+
+.social-links {
+  text-align: left;
+}
+
+.social-links h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2575fc;
+}
+
+.social-links a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.social-links a:hover {
+  color: #2575fc;
+}
+
+/* Map */
+.map {
+  margin-top: 2rem;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  margin-bottom: 1.5rem;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2575fc;
+}
+
+.footer-section p, .footer-section ul {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #2575fc;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}</style></head> 
+ <body> <!-- Navigation --> 
+  <nav> <button id="theme-toggle">🌙</button> <a href="index.html">Home</a> <a href="services.html">Services</a> <a href="projects.html">Projects</a> <a href="contact.html">Contact</a> 
+  </nav> <!-- Contact Section --> 
+  <section class="contact"> 
+   <h2>Contact Us</h2> 
+   <div class="contact-container"> <!-- Contact Form --> 
+    <form class="contact-form"> 
+     <input type="text" placeholder="Your Name" required> 
+     <input type="email" placeholder="Your Email" required> <textarea placeholder="Your Message" rows="5" required></textarea> <button type="submit">Send Message</button> 
+    </form> <!-- Social Media Links --> 
+    <div class="social-links"> 
+     <h3>Follow Us</h3> <a href="https://facebook.com" target="_blank">Facebook</a> <a href="https://twitter.com" target="_blank">Twitter</a> <a href="https://linkedin.com" target="_blank">LinkedIn</a> <a href="https://instagram.com" target="_blank">Instagram</a> 
+    </div> 
+   </div> <!-- Embedded Map (Optional) --> 
+   <div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d144.95373531531664!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d6eed1b7b097!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1625070000000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"> </iframe> 
+   </div> 
+  </section> <!-- Footer --> 
+  <footer> 
+   <div class="footer-content"> 
+    <div class="footer-section"> 
+     <h3>About Us</h3> 
+     <p>We are a software agency dedicated to building modern, scalable, and interactive solutions for your business.</p> 
+    </div> 
+    <div class="footer-section"> 
+     <h3>Quick Links</h3> 
+     <ul> 
+      <li><a href="index.html">Home</a></li> 
+      <li><a href="services.html">Services</a></li> 
+      <li><a href="projects.html">Projects</a></li> 
+      <li><a href="contact.html">Contact</a></li> 
+     </ul> 
+    </div> 
+    <div class="footer-section"> 
+     <h3>Follow Us</h3> 
+     <ul> 
+      <li><a href="https://facebook.com" target="_blank">Facebook</a></li> 
+      <li><a href="https://twitter.com" target="_blank">Twitter</a></li> 
+      <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li> 
+      <li><a href="https://instagram.com" target="_blank">Instagram</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="footer-bottom"> 
+    <p>© 2025 Software Agency. All rights reserved.</p> 
+   </div> 
+  </footer> 
+  <script src="script.js"></script> 
+ 
+<script type="text/javascript" id="dcoder_script">// Dark/Light Mode Toggle
+const themeToggle = document.getElementById('theme-toggle');
+const body = document.body;
+
+// Check for saved theme in localStorage
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) {
+  body.classList.add(savedTheme);
+  updateToggleIcon();
+}
+
+// Toggle Theme
+themeToggle.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+  localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark-mode' : '');
+  updateToggleIcon();
+});
+
+// Update Toggle Icon
+function updateToggleIcon() {
+  if (body.classList.contains('dark-mode')) {
+    themeToggle.textContent = '☀️';
+  } else {
+    themeToggle.textContent = '🌙';
+  }
+}
+
+// script.js
+function sanitizeInput(input) {
+  const div = document.createElement('div');
+  div.textContent = input; // Strips any HTML tags
+  return div.innerHTML;
+}
+
+// Contact Form Submission
+const contactForm = document.querySelector('.contact-form');
+if (contactForm) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    // Sanitize inputs
+    const name = sanitizeInput(contactForm.querySelector('input[type="text"]').value);
+    const email = sanitizeInput(contactForm.querySelector('input[type="email"]').value);
+    const message = sanitizeInput(contactForm.querySelector('textarea').value);
+
+    // Log sanitized data (demo only)
+    console.log('Name:', name);
+    console.log('Email:', email);
+    console.log('Message:', message);
+
+    // Show confirmation (demo only)
+    alert('Thank you for your message! (Note: This is a frontend-only demo.)');
+    contactForm.reset();
+  });
+}</script></body></html>
